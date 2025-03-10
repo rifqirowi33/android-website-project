@@ -32,6 +32,6 @@ app.post("/", (req, res) => {
 
 // Menjalankan server
 app.listen(PORT, () => {
-    console.log(`Server dijalankan pada http://localhost:${PORT}`);
+    console.log(`Server berjalan pada http://localhost:${PORT}`);
 });
 
